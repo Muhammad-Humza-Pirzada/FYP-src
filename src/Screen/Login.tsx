@@ -90,7 +90,7 @@ setmodel({...model})
 </div>
 
 <div className="text-center">
-    <WAButton Text={"Login"} className="bg-teal-700 rounded-full  p-2 text-white px-5"  onClick={addtask}/>
+    <WAButton Text={"Login"} className="bg-teal-700 rounded-full  p-2 text-white px-5"   onClick={addtask} />
 </div>
     </div>
 

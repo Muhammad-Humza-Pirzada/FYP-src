@@ -2,7 +2,7 @@ import { TextField } from "@mui/material"
 
 type propstype={
     label:string
-    variant:any
+    variant:"outlined"|"filled"|"standard"
     onchange?:any
     type:string
     fullwidth?:any

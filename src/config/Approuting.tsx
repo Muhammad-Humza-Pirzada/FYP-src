@@ -7,6 +7,8 @@ import ServiceData from "../Screen/service";
 
 import VanueGigs from "../Screen/VanueGigspage";
 import AdminPanel from "../AdminPalen/Dashbord";
+import Vanue from "../Screen/VanueDetail";
+import VanueDetail from "../Screen/VanueDetail";
 
 
 
@@ -17,6 +19,7 @@ export default function AppRouter(){
         <Route path="/"  element={<HomePage/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/service" element ={<ServiceData/>}/>
+     <Route path="VanueDetail" element={<VanueDetail/>}/>
         <Route path="/VanueGigs" element={<VanueGigs/>}/>
        
 

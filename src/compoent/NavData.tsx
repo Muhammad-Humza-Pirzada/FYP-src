@@ -21,15 +21,6 @@ export default function NavData() {
           <Nav className="m-auto  text-xl m">
             <NavLink  to="/"  className=' text-white mx-2 text-decoration-none'>Home</NavLink >
 
-            
-                         
-                     
-
-            
-
-
-
-
             <NavLink to="/About" className=" text-white mx-2 text-decoration-none">
               About
             </NavLink>

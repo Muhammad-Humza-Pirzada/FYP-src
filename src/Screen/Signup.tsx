@@ -50,7 +50,7 @@ const Navigate = useNavigate()
           </div>
 
           <div>
-          <WAButton Text={"Login"} className="bg-teal-700 rounded-full  p-2 text-white px-5"  onClick={AddTask}/>
+          <WAButton Text={"Login"} className="bg-teal-700 rounded-full  p-2 text-white px-5"  onClick={AddTask} />
           </div>
 
 

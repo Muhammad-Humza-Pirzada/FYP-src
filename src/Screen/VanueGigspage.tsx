@@ -2,8 +2,10 @@ import FooterData from "../compoent/Footer";
 import NavData from "../compoent/NavData";
 import VanueGigsCard from "../compoent/VanueGigsCard";
 import WInput from "../compoent/WInput";
+import { useNavigate } from "react-router-dom";
 
 export default function VanueGigs(){
+    let Navigate = useNavigate()
     return <>
     <NavData/>
     <div className="container-fluid px-5 py-3 ">
@@ -41,7 +43,7 @@ headingimg="https://image.wedmegood.com/resized/450X/uploads/member/669269/16012
   RentalCosttext="Rental Cost"
   Price="$ 2,50,000"
   buttontext="Detail"
-
+  onclick={()=>Navigate('/VanueDetail')}
   />
 
             </div>
@@ -60,7 +62,7 @@ headingimg="https://image.wedmegood.com/resized/450X/uploads/member/669269/16012
   RentalCosttext="Rental Cost"
   Price="$ 2,50,000"
   buttontext="Detail"
-
+  onclick={()=>Navigate('/VanueDetail')}
   />
 
             </div>
@@ -81,6 +83,7 @@ headingimg="https://image.wedmegood.com/resized/450X/uploads/member/669269/16012
   RentalCosttext="Rental Cost"
   Price="$ 2,50,000"
   buttontext="Detail"
+  onclick={()=>Navigate('/VanueDetail')}
 
   />
 

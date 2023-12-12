@@ -1,0 +1,17 @@
+.btnColorcontact{
+   
+    background-color: #5ba829;
+    color: white;
+    font-weight: bold;
+}
+
+.btnColorSend{
+   
+    background-color: #e72e77;
+    color: white;
+    font-weight: bold;
+}
+
+.contactIcon{
+    color: #5ba829;
+}
